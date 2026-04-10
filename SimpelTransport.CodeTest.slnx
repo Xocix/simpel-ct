@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="SimpelTransport.CodeTest.Application/SimpelTransport.CodeTest.Application.csproj" />
+  <Project Path="SimpelTransport.CodeTest.Domain/SimpelTransport.CodeTest.Domain.csproj" />
+  <Project Path="SimpelTransport.CodeTest.Infrastructure/SimpelTransport.CodeTest.Infrastructure.csproj" />
+  <Project Path="SimpelTransport.CodeTest.Tests/SimpelTransport.CodeTest.Tests.csproj" />
+  <Project Path="SimpelTransport.CodeTest.Workers/SimpelTransport.CodeTest.Workers.csproj" />
+</Solution>

@@ -1,0 +1,11 @@
+C:\Users\petar\RiderProjects\SimpelTransport.CodeTest\SimpelTransport.CodeTest.Domain\bin\Debug\net10.0\SimpelTransport.CodeTest.Domain.deps.json
+C:\Users\petar\RiderProjects\SimpelTransport.CodeTest\SimpelTransport.CodeTest.Domain\bin\Debug\net10.0\SimpelTransport.CodeTest.Domain.dll
+C:\Users\petar\RiderProjects\SimpelTransport.CodeTest\SimpelTransport.CodeTest.Domain\bin\Debug\net10.0\SimpelTransport.CodeTest.Domain.pdb
+C:\Users\petar\RiderProjects\SimpelTransport.CodeTest\SimpelTransport.CodeTest.Domain\obj\Debug\net10.0\SimpelTransport.CodeTest.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\petar\RiderProjects\SimpelTransport.CodeTest\SimpelTransport.CodeTest.Domain\obj\Debug\net10.0\SimpelTransport.CodeTest.Domain.AssemblyInfoInputs.cache
+C:\Users\petar\RiderProjects\SimpelTransport.CodeTest\SimpelTransport.CodeTest.Domain\obj\Debug\net10.0\SimpelTransport.CodeTest.Domain.AssemblyInfo.cs
+C:\Users\petar\RiderProjects\SimpelTransport.CodeTest\SimpelTransport.CodeTest.Domain\obj\Debug\net10.0\SimpelTransport.CodeTest.Domain.csproj.CoreCompileInputs.cache
+C:\Users\petar\RiderProjects\SimpelTransport.CodeTest\SimpelTransport.CodeTest.Domain\obj\Debug\net10.0\SimpelTransport.CodeTest.Domain.dll
+C:\Users\petar\RiderProjects\SimpelTransport.CodeTest\SimpelTransport.CodeTest.Domain\obj\Debug\net10.0\refint\SimpelTransport.CodeTest.Domain.dll
+C:\Users\petar\RiderProjects\SimpelTransport.CodeTest\SimpelTransport.CodeTest.Domain\obj\Debug\net10.0\SimpelTransport.CodeTest.Domain.pdb
+C:\Users\petar\RiderProjects\SimpelTransport.CodeTest\SimpelTransport.CodeTest.Domain\obj\Debug\net10.0\ref\SimpelTransport.CodeTest.Domain.dll
