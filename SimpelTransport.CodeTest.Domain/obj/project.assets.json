@@ -8,32 +8,25 @@
     "net10.0": []
   },
   "packageFolders": {
-    "C:\\Users\\petar\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "/home/parpil/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\petar\\RiderProjects\\SimpelTransport.CodeTest\\SimpelTransport.CodeTest.Domain\\SimpelTransport.CodeTest.Domain.csproj",
+      "projectUniqueName": "/home/parpil/source/simpel-ct/SimpelTransport.CodeTest.Domain/SimpelTransport.CodeTest.Domain.csproj",
       "projectName": "SimpelTransport.CodeTest.Domain",
-      "projectPath": "C:\\Users\\petar\\RiderProjects\\SimpelTransport.CodeTest\\SimpelTransport.CodeTest.Domain\\SimpelTransport.CodeTest.Domain.csproj",
-      "packagesPath": "C:\\Users\\petar\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\petar\\RiderProjects\\SimpelTransport.CodeTest\\SimpelTransport.CodeTest.Domain\\obj\\",
+      "projectPath": "/home/parpil/source/simpel-ct/SimpelTransport.CodeTest.Domain/SimpelTransport.CodeTest.Domain.csproj",
+      "packagesPath": "/home/parpil/.nuget/packages/",
+      "outputPath": "/home/parpil/source/simpel-ct/SimpelTransport.CodeTest.Domain/obj/",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\petar\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/home/parpil/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net10.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Users\\petar\\OneDrive\\Desktop\\LocalNugets": {},
+        "/home/parpil/source/CrossSharp/bin": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -73,7 +66,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.101/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "/home/parpil/.dotnet/sdk/10.0.100/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.CSharp": "(,4.7.32767]",
           "Microsoft.VisualBasic": "(,10.4.32767]",

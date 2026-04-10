@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "eivAphNx/FA=",
+  "dgSpecHash": "jU4enXkKxtc=",
   "success": true,
-  "projectFilePath": "C:\\Users\\petar\\RiderProjects\\SimpelTransport.CodeTest\\SimpelTransport.CodeTest.Domain\\SimpelTransport.CodeTest.Domain.csproj",
+  "projectFilePath": "/home/parpil/source/simpel-ct/SimpelTransport.CodeTest.Domain/SimpelTransport.CodeTest.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
