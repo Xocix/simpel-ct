@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\petar\\RiderProjects\\SimpelTransport.CodeTest\\SimpelTransport.CodeTest.Workers\\SimpelTransport.CodeTest.Workers.csproj": {}
+    "C:\\Users\\strah\\Downloads\\SimpelTransport.CodeTest\\SimpelTransport.CodeTest.Workers\\SimpelTransport.CodeTest.Workers.csproj": {}
   },
   "projects": {
-    "C:\\Users\\petar\\RiderProjects\\SimpelTransport.CodeTest\\SimpelTransport.CodeTest.Application\\SimpelTransport.CodeTest.Application.csproj": {
+    "C:\\Users\\strah\\Downloads\\SimpelTransport.CodeTest\\SimpelTransport.CodeTest.Application\\SimpelTransport.CodeTest.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\petar\\RiderProjects\\SimpelTransport.CodeTest\\SimpelTransport.CodeTest.Application\\SimpelTransport.CodeTest.Application.csproj",
+        "projectUniqueName": "C:\\Users\\strah\\Downloads\\SimpelTransport.CodeTest\\SimpelTransport.CodeTest.Application\\SimpelTransport.CodeTest.Application.csproj",
         "projectName": "SimpelTransport.CodeTest.Application",
-        "projectPath": "C:\\Users\\petar\\RiderProjects\\SimpelTransport.CodeTest\\SimpelTransport.CodeTest.Application\\SimpelTransport.CodeTest.Application.csproj",
-        "packagesPath": "C:\\Users\\petar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\petar\\RiderProjects\\SimpelTransport.CodeTest\\SimpelTransport.CodeTest.Application\\obj\\",
+        "projectPath": "C:\\Users\\strah\\Downloads\\SimpelTransport.CodeTest\\SimpelTransport.CodeTest.Application\\SimpelTransport.CodeTest.Application.csproj",
+        "packagesPath": "C:\\Users\\strah\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\strah\\Downloads\\SimpelTransport.CodeTest\\SimpelTransport.CodeTest.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\petar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\strah\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,15 +26,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Users\\petar\\OneDrive\\Desktop\\LocalNugets": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net10.0": {
             "targetAlias": "net10.0",
             "projectReferences": {
-              "C:\\Users\\petar\\RiderProjects\\SimpelTransport.CodeTest\\SimpelTransport.CodeTest.Domain\\SimpelTransport.CodeTest.Domain.csproj": {
-                "projectPath": "C:\\Users\\petar\\RiderProjects\\SimpelTransport.CodeTest\\SimpelTransport.CodeTest.Domain\\SimpelTransport.CodeTest.Domain.csproj"
+              "C:\\Users\\strah\\Downloads\\SimpelTransport.CodeTest\\SimpelTransport.CodeTest.Domain\\SimpelTransport.CodeTest.Domain.csproj": {
+                "projectPath": "C:\\Users\\strah\\Downloads\\SimpelTransport.CodeTest\\SimpelTransport.CodeTest.Domain\\SimpelTransport.CodeTest.Domain.csproj"
               }
             }
           }
@@ -70,7 +70,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.101/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
@@ -348,20 +348,20 @@
         }
       }
     },
-    "C:\\Users\\petar\\RiderProjects\\SimpelTransport.CodeTest\\SimpelTransport.CodeTest.Domain\\SimpelTransport.CodeTest.Domain.csproj": {
+    "C:\\Users\\strah\\Downloads\\SimpelTransport.CodeTest\\SimpelTransport.CodeTest.Domain\\SimpelTransport.CodeTest.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\petar\\RiderProjects\\SimpelTransport.CodeTest\\SimpelTransport.CodeTest.Domain\\SimpelTransport.CodeTest.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\strah\\Downloads\\SimpelTransport.CodeTest\\SimpelTransport.CodeTest.Domain\\SimpelTransport.CodeTest.Domain.csproj",
         "projectName": "SimpelTransport.CodeTest.Domain",
-        "projectPath": "C:\\Users\\petar\\RiderProjects\\SimpelTransport.CodeTest\\SimpelTransport.CodeTest.Domain\\SimpelTransport.CodeTest.Domain.csproj",
-        "packagesPath": "C:\\Users\\petar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\petar\\RiderProjects\\SimpelTransport.CodeTest\\SimpelTransport.CodeTest.Domain\\obj\\",
+        "projectPath": "C:\\Users\\strah\\Downloads\\SimpelTransport.CodeTest\\SimpelTransport.CodeTest.Domain\\SimpelTransport.CodeTest.Domain.csproj",
+        "packagesPath": "C:\\Users\\strah\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\strah\\Downloads\\SimpelTransport.CodeTest\\SimpelTransport.CodeTest.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\petar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\strah\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -370,7 +370,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Users\\petar\\OneDrive\\Desktop\\LocalNugets": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -410,7 +410,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.101/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
@@ -688,20 +688,20 @@
         }
       }
     },
-    "C:\\Users\\petar\\RiderProjects\\SimpelTransport.CodeTest\\SimpelTransport.CodeTest.Infrastructure\\SimpelTransport.CodeTest.Infrastructure.csproj": {
+    "C:\\Users\\strah\\Downloads\\SimpelTransport.CodeTest\\SimpelTransport.CodeTest.Infrastructure\\SimpelTransport.CodeTest.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\petar\\RiderProjects\\SimpelTransport.CodeTest\\SimpelTransport.CodeTest.Infrastructure\\SimpelTransport.CodeTest.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\strah\\Downloads\\SimpelTransport.CodeTest\\SimpelTransport.CodeTest.Infrastructure\\SimpelTransport.CodeTest.Infrastructure.csproj",
         "projectName": "SimpelTransport.CodeTest.Infrastructure",
-        "projectPath": "C:\\Users\\petar\\RiderProjects\\SimpelTransport.CodeTest\\SimpelTransport.CodeTest.Infrastructure\\SimpelTransport.CodeTest.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\petar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\petar\\RiderProjects\\SimpelTransport.CodeTest\\SimpelTransport.CodeTest.Infrastructure\\obj\\",
+        "projectPath": "C:\\Users\\strah\\Downloads\\SimpelTransport.CodeTest\\SimpelTransport.CodeTest.Infrastructure\\SimpelTransport.CodeTest.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\strah\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\strah\\Downloads\\SimpelTransport.CodeTest\\SimpelTransport.CodeTest.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\petar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\strah\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -710,15 +710,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Users\\petar\\OneDrive\\Desktop\\LocalNugets": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net10.0": {
             "targetAlias": "net10.0",
             "projectReferences": {
-              "C:\\Users\\petar\\RiderProjects\\SimpelTransport.CodeTest\\SimpelTransport.CodeTest.Application\\SimpelTransport.CodeTest.Application.csproj": {
-                "projectPath": "C:\\Users\\petar\\RiderProjects\\SimpelTransport.CodeTest\\SimpelTransport.CodeTest.Application\\SimpelTransport.CodeTest.Application.csproj"
+              "C:\\Users\\strah\\Downloads\\SimpelTransport.CodeTest\\SimpelTransport.CodeTest.Application\\SimpelTransport.CodeTest.Application.csproj": {
+                "projectPath": "C:\\Users\\strah\\Downloads\\SimpelTransport.CodeTest\\SimpelTransport.CodeTest.Application\\SimpelTransport.CodeTest.Application.csproj"
               }
             }
           }
@@ -760,7 +760,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.101/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
@@ -1038,20 +1038,20 @@
         }
       }
     },
-    "C:\\Users\\petar\\RiderProjects\\SimpelTransport.CodeTest\\SimpelTransport.CodeTest.Workers\\SimpelTransport.CodeTest.Workers.csproj": {
+    "C:\\Users\\strah\\Downloads\\SimpelTransport.CodeTest\\SimpelTransport.CodeTest.Workers\\SimpelTransport.CodeTest.Workers.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\petar\\RiderProjects\\SimpelTransport.CodeTest\\SimpelTransport.CodeTest.Workers\\SimpelTransport.CodeTest.Workers.csproj",
+        "projectUniqueName": "C:\\Users\\strah\\Downloads\\SimpelTransport.CodeTest\\SimpelTransport.CodeTest.Workers\\SimpelTransport.CodeTest.Workers.csproj",
         "projectName": "SimpelTransport.CodeTest.Workers",
-        "projectPath": "C:\\Users\\petar\\RiderProjects\\SimpelTransport.CodeTest\\SimpelTransport.CodeTest.Workers\\SimpelTransport.CodeTest.Workers.csproj",
-        "packagesPath": "C:\\Users\\petar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\petar\\RiderProjects\\SimpelTransport.CodeTest\\SimpelTransport.CodeTest.Workers\\obj\\",
+        "projectPath": "C:\\Users\\strah\\Downloads\\SimpelTransport.CodeTest\\SimpelTransport.CodeTest.Workers\\SimpelTransport.CodeTest.Workers.csproj",
+        "packagesPath": "C:\\Users\\strah\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\strah\\Downloads\\SimpelTransport.CodeTest\\SimpelTransport.CodeTest.Workers\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\petar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\strah\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -1060,15 +1060,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Users\\petar\\OneDrive\\Desktop\\LocalNugets": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net10.0": {
             "targetAlias": "net10.0",
             "projectReferences": {
-              "C:\\Users\\petar\\RiderProjects\\SimpelTransport.CodeTest\\SimpelTransport.CodeTest.Infrastructure\\SimpelTransport.CodeTest.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\petar\\RiderProjects\\SimpelTransport.CodeTest\\SimpelTransport.CodeTest.Infrastructure\\SimpelTransport.CodeTest.Infrastructure.csproj"
+              "C:\\Users\\strah\\Downloads\\SimpelTransport.CodeTest\\SimpelTransport.CodeTest.Infrastructure\\SimpelTransport.CodeTest.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\strah\\Downloads\\SimpelTransport.CodeTest\\SimpelTransport.CodeTest.Infrastructure\\SimpelTransport.CodeTest.Infrastructure.csproj"
               }
             }
           }
@@ -1110,7 +1110,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.101/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
