@@ -10,14 +10,16 @@ public class OrderWorker(IMessageQueue queue, MyDbContext dbContext) : Backgroun
         while (!cancellationToken.IsCancellationRequested)
         {
             var message = await queue.ReceiveMessageAsync();
-            
+
             if (message == null)
             {
                 continue;
             }
 
             var order = await dbContext.Orders.FindAsync([message.OrderId], cancellationToken);
-            
+
+            // Alot of complex business logic here, but we will just check the status for simplicity
+
             if (order is { Status: "Pending" })
             {
                 await queue.SendMessageAsync(message);

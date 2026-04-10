@@ -1,17 +1,19 @@
 ## Shipment Validation Context
 
 Our logistics API receives thousands of transport requests daily from various customer systems. Unfortunately, the data quality is often poor. Customers frequently:
+
 - Declare a packageType that contradicts the physical dimensions (e.g., a 500kg "Package").
 - Send Unspecified as a type because their system doesn't know our classifications.
-- Swap length and width values. 
+- Swap length and width values.
 - Your goal is to implement the logic inside the ShipmentValidator.cs class. You must normalize and validate incoming requests based on these constraints:
+
 ---
 
-| Type | Max Weight | Max Dimensions |
-|---|---:|---|
-| Package | 35 kg | 150 cm (longest side) |
-| HalfPallet | 400 kg | ~60 cm x 80 cm |
-| Pallet | 1000 kg | ~120 cm x 80 cm *(up to 600 cm x 300 cm)* |
+| Type       | Max Weight | Max Dimensions                                     |
+| ---------- | ---------: | -------------------------------------------------- |
+| Package    |      35 kg | 150 cm (longest side)                              |
+| HalfPallet |     400 kg | 60 cm x 80 cm                                      |
+| Pallet     |    1000 kg | 120 cm x 80 cm (default) _(up to 600 cm x 300 cm)_ |
 
 ---
 

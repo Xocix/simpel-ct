@@ -5,7 +5,6 @@ using SimpelTransport.CodeTest.Domain.Entities;
 using SimpelTransport.CodeTest.Infrastructure.Contexts;
 using SimpelTransport.CodeTest.Infrastructure.Services;
 using SimpelTransport.CodeTest.Workers;
-
 var builder = Host.CreateApplicationBuilder(args);
 
 builder.Services.AddDbContext<MyDbContext>(options => options.UseInMemoryDatabase("TestDb"), ServiceLifetime.Singleton);
@@ -18,11 +17,12 @@ using (var scope = host.Services.CreateScope())
 {
     var db = scope.ServiceProvider.GetRequiredService<MyDbContext>();
     var queue = scope.ServiceProvider.GetRequiredService<IMessageQueue>();
-    
-    db.Orders.Add(new Order { Id = 1001, Status = "Pending", Price = 101m });
+
+    var order = new Order { Id = 1, Details = "Test Order", Price = 150m, Status = "Pending" };
+    db.Orders.Add(order);
     db.SaveChanges();
-    
-    await queue.SendMessageAsync(new OrderMessageDto(1));
+
+    await queue.SendMessageAsync(new OrderMessageDto(order.Id));
 }
 
 Console.WriteLine("Worker started.");

@@ -6,7 +6,7 @@ We have provided a simplified version of the production code. While it uses an I
 
 ### Incident Report: "The Price Mismatch"
 
-We have a major issue with Order #1001. An administrator updated the Price of this order directly in the system to correct a data entry error. 
+We have a major issue with Order #1001. An administrator updated the Price of this order directly in the system to correct a data entry error.
 However, even after the change was confirmed in the database, the background worker processed the order using the original, incorrect price.
 
 We need to know why the worker ignored the updated database record and how to ensure this never happens again.
@@ -26,6 +26,7 @@ Find the Root Cause: Why did the worker use the old price even though the databa
 - **Document Findings**: Write a detailed report explaining your findings, the root cause, and the proposed solution.
 
 #### Bonus: Brief written answers to the Cloud Architecture questions below
+
 - **Bonus 1**: If we scale to 500+ instances of this worker, how do we protect our RDS database from connection exhaustion?
 - **Bonus 2**: If a message fails to process due to an error, how should we handle it to prevent it from blocking the rest of the queue?
 - **Bonus 3**: How do we ensure a customer isn't charged twice if S3/SQS delivers the same message more than once?
