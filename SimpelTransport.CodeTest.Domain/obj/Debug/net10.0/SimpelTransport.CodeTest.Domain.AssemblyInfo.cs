@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SimpelTransport.CodeTest.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d33cef7022f27d66fb29a4902f54b558addc492b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d418b993b107e305850dc458a18220a77e5248c7")]
 [assembly: System.Reflection.AssemblyProductAttribute("SimpelTransport.CodeTest.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SimpelTransport.CodeTest.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
