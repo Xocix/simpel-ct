@@ -30,3 +30,17 @@ Find the Root Cause: Why did the worker use the old price even though the databa
 - **Bonus 1**: If we scale to 500+ instances of this worker, how do we protect our RDS database from connection exhaustion?
 - **Bonus 2**: If a message fails to process due to an error, how should we handle it to prevent it from blocking the rest of the queue?
 - **Bonus 3**: How do we ensure a customer isn't charged twice if S3/SQS delivers the same message more than once?
+
+#### Report:
+The DbContext was registered as a Singleton, causing it to cache entities. When FindAsync() is called,
+it returns the cached entity instead of querying the database(if it's cached, if not it will query database),
+so external updates were never visible to the worker.
+Fix: Use IDbContextFactory to create a fresh context per message, ensuring always fresh data from DB.
+
+Other Issue: Original code had no delay when queue was empty causing 100% CPU.
+Fix: Added Task.Delay(500) when no message is received.
+
+Bonus 1: if we scale to 500+ workers, We could use Amazon RDS Proxy https://aws.amazon.com/blogs/database/scaling-your-amazon-rds-instance-vertically-and-horizontally/
+Bonus 2: Message fails, we could configure SQS Dead Letter Queue (DLQ) https://www.conduktor.io/glossary/dead-letter-queues-for-error-handling
+Bonus 3: implement idempotency by checking MessageId in a "processed" table before processing https://microservices.io/post/microservices/patterns/2020/10/16/idempotent-consumer.html#:~:text=You%20must%20use%20the%20Idempotent%20Consumer%20pattern,problems%20by%20making%20your%20message%20handlers%20idempotent.
+or use SQS FIFO queue with deduplication enabled: https://aws.amazon.com/sqs/faqs/#fifo-queues--1kknyrp
